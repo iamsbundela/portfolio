@@ -479,3 +479,57 @@ header {
         font-size: 1rem;
     }
 }
+
+@media only screen and (max-width: 480px) {
+    .section-main {
+        height: 110vh;
+    }
+
+    .nav-links a {
+        font-size: 14px;
+    }
+
+    .typewriter {
+        font-size: 16px;
+    }
+
+    .container img {
+        width: 90%;
+        margin-top: 2rem;
+    }
+
+    .section-2 {
+        padding: 1rem;
+    }
+
+    .section-2 h2 {
+        font-size: 2.8rem;
+    }
+
+    .social {
+        flex-direction: column;
+    }
+
+    .section-3 h2 {
+        font-size: 2.8rem;
+    }
+
+    .project img {
+        height: 60%;
+    }
+
+    .project {
+        padding: 2rem 0;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer .sites {
+        text-align: left;
+        margin-left: 2rem;
+        transform: translateY(-0.6rem);
+    }
+
+}
