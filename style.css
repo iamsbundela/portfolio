@@ -481,8 +481,9 @@ header {
 }
 
 @media only screen and (max-width: 480px) {
+
     .section-main {
-        height: 110vh;
+        height: 105vh;
     }
 
     .nav-links a {
@@ -490,7 +491,7 @@ header {
     }
 
     .typewriter {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .container img {
@@ -532,4 +533,21 @@ header {
         transform: translateY(-0.6rem);
     }
 
+}
+
+@media only screen and (max-width:375px) {
+    .section-main {
+        height: 125vh;
+    }
+
+    .nav-links a {
+        font-size: 12px;
+    }
+}
+
+
+@media only screen and (max-width:320px) {
+    .section-main {
+        height: 145vh;
+    }
 }
